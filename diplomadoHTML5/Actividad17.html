@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="/stylesheets/diplomadoHTML5.css"/>
+        <link type="text/css" href="/stylesheets/jquery-ui-1.8.16.custom.css" rel="stylesheet" >  
+        <script type="text/javascript" src="jquery-1.7.1.min.js"></script>  
+        <script type="text/javascript" src="jquery-ui-1.8.16.custom.min.js"></script>      
+        <script type="text/javascript">                                         
+            $(document).ready(function() {
+            // do stuff when DOM is ready   
+             
+                $('#camerap').mouseover(function(){
+                $('#camerag').fadeIn();
+                document.getElementById('reproductor1').play();});
+                $('#camerap').mouseout(function(){
+                $('#camerag').fadeOut(); document.getElementById('reproductor1').pause();});
+                $('#facep').mouseover(function(){
+                $('#faceg').fadeIn();document.getElementById('reproductor1').play();});
+                $('#facep').mouseout(function(){
+                $('#faceg').fadeOut();document.getElementById('reproductor1').pause();});
+                $('#warnp').mouseover(function(){
+                $('#warng').fadeIn();document.getElementById('reproductor1').play();});
+                $('#warnp').mouseout(function(){
+                $('#warng').fadeOut();document.getElementById('reproductor1').pause();});
+                $('#discp').mouseover(function(){
+                $('#discg').fadeIn();document.getElementById('reproductor1').play();});
+                $('#discp').mouseout(function(){
+                $('#discg').fadeOut();document.getElementById('reproductor1').pause();}); 
+                $('#webcamp').mouseover(function(){
+                $('#webcamg').fadeIn();document.getElementById('reproductor1').play();});
+                $('#webcamp').mouseout(function(){
+                $('#webcamg').fadeOut();document.getElementById('reproductor1').pause();}); 
+            });                                     
+        </script>                                               
+        <meta charset="utf-8" />
+        <title>Actividad 19</title>
+    </head>
+    <body>
+         <nav id="menu">
+            <ul>
+            <li><a href="Preguntas.html">Preguntas</a></li>
+            <li><a href="acercaDe.html">Inicio</a></li>
+            <li><a href="actividad7.html">Actividad 7</a></li>
+            <li><a href="Actividad9.html">Actividad 9</a></li>
+            <li><a href="Actividad11.html">Actividad 11</a></li>
+            <li><a href="Actividad13.html">Actividad 13</a></li>
+            <li><a href="Actividad15.html">Actividad 15</a></li>
+            <li><a href="Actividad17.html">Actividad 19</a></li>
+            </ul>
+        </nav>
+            <audio id="reproductor1">
+                        <source type="audio/mp3" src="goofy.mp3"></source>
+                        <source type="audio/wma" src="goofy.wma"></source>
+                    <p>Su navegador no soporta este taG de audio</p>
+                    </audio>
+            <p>
+                <div id="fotos_peque">
+                    <img id="camerap" src="camera.png"/>
+                    
+                    <img id="discp" src="disc.png"/>
+                    <img id="facep" src="face.png"/>
+                    <img id="warnp" src="warn.png"/>
+                    <img id="webcamp" src="webcam.png"/>
+                </div>
+            </p>
+            <p>
+                 <div id="fotos_grandes">
+                    <img id="camerag" src="camera.png" style="display: none;"/>
+                    <img id="discg" src="disc.png" style="display: none;"/>
+                    <img id="faceg" src="face.png" style="display: none;"/>
+                    <img id="warng" src="warn.png" style="display: none;"/>
+                    <img id="webcamg" src="webcam.png" style="display: none;"/>
+                </div>
+            </p>
+       
+    </div>
+     <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3" target="_blank" >Validar CSS (Enlace externo nueva ventana)
+          <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />    
+        </a><br/>
+        <a href="http://validator.w3.org/check/referer">Validar HTML5</a><br/>
+    </body>
+</html>

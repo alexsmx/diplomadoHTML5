@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+         <link rel="stylesheet" href="/stylesheets/diplomadoHTML5.css"/>
+        <title>Actividad 15</title>
+    </head>
+    <body>
+         <nav id="menu">
+            <ul>
+            <li><a href="Preguntas.html">Preguntas</a></li>
+            <li><a href="acercaDe.html">Inicio</a></li>
+            <li><a href="actividad7.html">Actividad 7</a></li>
+            <li><a href="Actividad9.html">Actividad 9</a></li>
+            <li><a href="Actividad11.html">Actividad 11</a></li>
+            <li><a href="Actividad13.html">Actividad 13</a></li>
+            <li><a href="Actividad15.html">Actividad 15</a></li>
+            <li><a href="Actividad17.html">Actividad 19</a></li>
+            </ul>
+        </nav>
+        <form name="forma" id="forma">
+            <label>Esto es una etiqueta:</label><br/>
+            <input type="text"/><br/>
+            <textarea></textarea><br/>
+            <fieldset title="Comida" >
+            <legend>Seleccione lo que quiere comer:</legend>
+            <input type="radio" name="elige" value="pizza"/>Pizza<br/>
+            <input type="radio" name="elige" value="tortas"/>Tortas<br/>
+            <input type="radio" name="elige" value="tacos"/>Tacos<br/>
+            <input type="radio" name="elige" value="tamales"/>Tamales<br/>
+            </fieldset>
+            <fieldset>
+                <legend>Y de tomar?</legend>
+                <input type="checkbox" name="refresco"/>Refresco 
+                <input type="checkbox" name="cerveza"/>Cerveza 
+                <input type="checkbox" name="ron"/>Ron 
+                <input type="checkbox" name="tequila"/>Tequila 
+            </fieldset>
+            <select>
+                <option value="1">Volkswagen</option>
+                <option value="2">Ford</option>
+                <option value="3">Chrysler</option>
+                <option value="4">Volvo</option>
+            </select>
+            <input type="hidden" value="Valor 1234" id="valor_oculto" name="valor_oculto" /><br/>
+            <input type="button" onclick="alert(forma.valor_oculto.value);"  value="Mostrar valor de campo oculto."/>
+        </form>
+          <br/>
+         <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3" target="_blank" >Validar CSS (Enlace externo nueva ventana)
+          <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />    
+        </a><br/>
+        <a href="http://validator.w3.org/check/referer">Validar HTML5</a><br/>
+    </body>
+</html>

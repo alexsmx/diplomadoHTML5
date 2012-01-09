@@ -1,0 +1,161 @@
+@charset "ISO-8859-1";
+
+#prueba_selector_id {color: #33F;}
+
+
+.miClase {color: #f00;}
+
+
+p i {
+    background-color: tan;
+}
+
+@font-face {
+  font-family: "Kimberley";
+  src: url(http://www.princexml.com/fonts/larabie/kimberle.ttf) format("truetype");
+}
+
+.miFontFaceClass {font-family: "Kimberley", sans-serif }
+
+.miParrafoColores p { 
+    margin: 0;
+    padding:0;
+    margin-top: 0px;
+    margin-bottom:0px;
+    text-align:center;
+}
+
+a:link {
+     color: red;
+    
+}
+
+a:visited{
+     color: black;
+}
+
+a:hover{
+     color: yellow;
+}
+
+        a:active{
+     color: olive;
+}
+
+.flotar_izq { float:left}
+.flotar_der {float:right}
+.flotar_none {float:none}
+.flotar_inherit{float:inherit}
+
+body { background-image:url("/Penguins.jpg")}
+
+#menu ul
+{
+    list-style-type:none;
+    margin:5px;
+    padding:5px;
+ }
+#menu  ul li
+{
+ display:inline;
+ text-align:center;
+ background-color:gray;
+ border-bottom-style:outset;
+ 
+}
+#menu  ul li a
+{
+ font-family:    Verdana, sans-serif;
+ font-size:15px;
+ color:white;
+ text-decoration:none;
+ text-align:center;
+}
+#menu  ul li a:hover
+{
+background-color:Blue;
+
+}
+
+dl {color:White}
+
+dialog{color:White}
+
+
+
+.formato_tabla {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-collapse: collapse;
+    font-family: "Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+    font-size: 12px;
+    margin: auto;
+    text-align: left;
+    width: 480px;
+}
+.formato_tabla th {
+    background: none repeat scroll 0 0 #B9C9FE;
+    border-bottom: 2px solid #6678B1;
+    color: #003399;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 8px;
+}
+.formato_tabla td {
+    background: none repeat scroll 0 0 #E8EDFF;
+    color: #666699;
+    padding: 9px 8px 0;
+}
+
+.hformato_tabla tbody tr:hover td {
+    background: none repeat scroll 0 0 #D0DAFD;
+    color: #333399;
+}
+
+.formato_tabla_b {
+    background: url("/webcam.png") ;
+    border-collapse: collapse;
+    font-family: "Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+    font-size: 12px;
+    margin-left:auto;
+    margin-right:6px;
+    text-align: left;
+    width: 480px;
+}
+.formato_tabla_b th {
+   
+    border-bottom: 2px solid #6678B1;
+    color: #003399;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 8px;
+}
+.formato_tabla_b td {
+    
+    color:Black;
+    padding: 9px 8px 0;
+}
+
+.hformato_tabla_b tbody tr:hover td {
+    background: none repeat scroll 0 0 #D0DAFD;
+    color: #333399;
+}
+
+#fotos_peque img{
+    height: 90px;
+    width: 90px;
+}
+
+#fotos_grandes img{
+    height:300px;
+    width:300px;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+
+.Preguntas dt{
+    color:Navy;
+}
+
+.Preguntas dd{
+    color:Blue;
+}
